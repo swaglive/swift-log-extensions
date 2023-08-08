@@ -11,7 +11,7 @@ import Logging
 struct HTTPHeaderConverter {
     static func convert(allHeaderFields: [AnyHashable: Any]) -> Logger.MetadataValue {
         var headers = [Logger.Metadata.Value]()
-        for (key, val) in allHeaderFields {            
+        for (key, val) in allHeaderFields {
             headers.append(.dictionary(["name": "\(key)", "value": "\(val)"]))
         }
         return .array(headers)
