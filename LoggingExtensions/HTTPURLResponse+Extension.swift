@@ -9,9 +9,9 @@ import Foundation
 import Logging
 
 extension HTTPURLResponse: LoggerMetadataConvertible {
-    public var loggerMetadata: Logger.Metadata {        
+    public var loggerMetadata: Logger.Metadata {
         var meta: Logger.Metadata = [
-            "status": "\(statusCode)"
+            "status": "\(statusCode)",
         ]
         if let url = url {
             meta["url"] = "\(url)"
