@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E01D03DD2A81F2A400B0AAFE /* URLComponents+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01D03DC2A81F2A400B0AAFE /* URLComponents+Extension.swift */; };
 		E06C0B1B2A4A8D9C00102E7F /* LoggingExtensions.docc in Sources */ = {isa = PBXBuildFile; fileRef = E06C0B1A2A4A8D9C00102E7F /* LoggingExtensions.docc */; };
 		E06C0B212A4A8D9C00102E7F /* LoggingExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06C0B162A4A8D9B00102E7F /* LoggingExtensions.framework */; };
 		E06C0B262A4A8D9C00102E7F /* LoggingExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C0B252A4A8D9C00102E7F /* LoggingExtensionsTests.swift */; };
@@ -15,6 +16,8 @@
 		E06C0B372A4AC21600102E7F /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C0B362A4AC21600102E7F /* Error+Extension.swift */; };
 		E06C0B392A4AC2B400102E7F /* LoggerMetadataValueConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C0B382A4AC2B400102E7F /* LoggerMetadataValueConvertible.swift */; };
 		E06C0B3B2A4ACF5100102E7F /* HTTPURLResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C0B3A2A4ACF5100102E7F /* HTTPURLResponse+Extension.swift */; };
+		E071D7BF2A4ED811003B8CA1 /* HTTPHeaderConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071D7BE2A4ED811003B8CA1 /* HTTPHeaderConverter.swift */; };
+		E071D7C12A4ED8A3003B8CA1 /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E071D7C02A4ED8A3003B8CA1 /* URLRequest+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E01D03DC2A81F2A400B0AAFE /* URLComponents+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLComponents+Extension.swift"; sourceTree = "<group>"; };
 		E06C0B162A4A8D9B00102E7F /* LoggingExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggingExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06C0B192A4A8D9B00102E7F /* LoggingExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggingExtensions.h; sourceTree = "<group>"; };
 		E06C0B1A2A4A8D9C00102E7F /* LoggingExtensions.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LoggingExtensions.docc; sourceTree = "<group>"; };
@@ -37,6 +41,8 @@
 		E06C0B362A4AC21600102E7F /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
 		E06C0B382A4AC2B400102E7F /* LoggerMetadataValueConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerMetadataValueConvertible.swift; sourceTree = "<group>"; };
 		E06C0B3A2A4ACF5100102E7F /* HTTPURLResponse+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+Extension.swift"; sourceTree = "<group>"; };
+		E071D7BE2A4ED811003B8CA1 /* HTTPHeaderConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderConverter.swift; sourceTree = "<group>"; };
+		E071D7C02A4ED8A3003B8CA1 /* URLRequest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,9 @@
 				E06C0B382A4AC2B400102E7F /* LoggerMetadataValueConvertible.swift */,
 				E06C0B362A4AC21600102E7F /* Error+Extension.swift */,
 				E06C0B3A2A4ACF5100102E7F /* HTTPURLResponse+Extension.swift */,
+				E071D7BE2A4ED811003B8CA1 /* HTTPHeaderConverter.swift */,
+				E071D7C02A4ED8A3003B8CA1 /* URLRequest+Extension.swift */,
+				E01D03DC2A81F2A400B0AAFE /* URLComponents+Extension.swift */,
 				E06C0B1A2A4A8D9C00102E7F /* LoggingExtensions.docc */,
 			);
 			path = LoggingExtensions;
@@ -207,8 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06C0B3B2A4ACF5100102E7F /* HTTPURLResponse+Extension.swift in Sources */,
+				E01D03DD2A81F2A400B0AAFE /* URLComponents+Extension.swift in Sources */,
+				E071D7C12A4ED8A3003B8CA1 /* URLRequest+Extension.swift in Sources */,
 				E06C0B352A4ABB4900102E7F /* Logger+Extension.swift in Sources */,
 				E06C0B372A4AC21600102E7F /* Error+Extension.swift in Sources */,
+				E071D7BF2A4ED811003B8CA1 /* HTTPHeaderConverter.swift in Sources */,
 				E06C0B392A4AC2B400102E7F /* LoggerMetadataValueConvertible.swift in Sources */,
 				E06C0B1B2A4A8D9C00102E7F /* LoggingExtensions.docc in Sources */,
 			);
