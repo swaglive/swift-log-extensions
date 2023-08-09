@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "swift-log-extensions"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "swift log with tags"
 
   spec.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.osx.deployment_target = "10.13"
 
-  spec.source       = { :git => "https://github.com/swaglive/swift-log-extensions.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/swaglive/swift-log-extensions.git", :tag => "1.1.0" }
   spec.source_files  = "LoggingExtensions/**/*.swift"
   spec.dependency 'Logging', '~> 1.4'
 
